@@ -1,7 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
-const router = require("./routes/authRoute")
 
 dotenv.config();
 connectDB();
@@ -9,8 +8,8 @@ connectDB();
 const app = express();
 app.use(express.json());
 
-app.use("/api/auth", router);
-app.use("/api/tasks", router);
+app.use("/api/auth", require("./routes/authRoute"));
+app.use("/api/tasks",require("./routes/taskRoute"));
 
 app.get("/", (req, res) => {
   res.send("API is running");
