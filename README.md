@@ -151,8 +151,9 @@ The frontend will run on : `http://localhost:3000`
 - Edge cases handled (unauthorized access, invalid tokens)
 
 ## 👤 Author
-
-Khushi
+ 
+Khushi Shorey
+Student at IIIT Allahabad
 
 
 
