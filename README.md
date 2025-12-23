@@ -152,10 +152,9 @@ The frontend will run on : `http://localhost:3000`
 
 ## 👤 Author
  
-Khushi Shorey.
+Khushi Shorey
 
-
-Student at IIIT Allahabad.
+Student at IIIT Allahabad
 
 
 
