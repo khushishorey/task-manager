@@ -122,7 +122,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
 
-Start Backend Server
+Start Backend Server:
 ```bash
 npm start
 ```
@@ -152,8 +152,10 @@ The frontend will run on : `http://localhost:3000`
 
 ## 👤 Author
  
-Khushi Shorey
-Student at IIIT Allahabad
+Khushi Shorey.
+
+
+Student at IIIT Allahabad.
 
 
 
