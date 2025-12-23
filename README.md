@@ -109,10 +109,9 @@ Follow the steps below to run the project on your local machine.
 git clone https://github.com/<your-username>/task-manager.git
 cd task-manager
  
- ---
 
 ### 2️⃣ Backend Setup (Server)
-```bash
+
 cd server
 npm install
 npm start
