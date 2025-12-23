@@ -109,23 +109,19 @@ Follow the steps below to run the project on your local machine.
 git clone https://github.com/<your-username>/task-manager.git
 cd task-manager
 
-### 2️⃣ Backend Setup (Server)
-
-- Navigate to the backend folder:
-```bash
+2️⃣ Backend Setup (Server)
+1. Navigate to the backend folder:
 cd server
 
-- Install dependencies
-```bash
+
+2. Install dependencies:
 npm install
 
-- Create a .env file inside the server directory and add the following:
-```bash
+3. Create a .env file inside the server directory and add the following:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
-- Start the backend server:
-```bash
+4. Start the backend server:
 npm start
 
 
