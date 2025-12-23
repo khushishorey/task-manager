@@ -98,30 +98,40 @@ Key principles:
 - PUT /api/tasks/:id → Update task status
 - DELETE /api/tasks/:id → Delete a task
 
+---
+
 ## 🚀 Running the Project Locally
 
 Follow the steps below to run the project on your local machine.
-
----
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/task-manager.git
 cd task-manager
+ 
+ ---
 
-2️⃣ Backend Setup (Server)
-1. Navigate to the backend folder:
+### 2️⃣ Backend Setup (Server)
+```bash
 cd server
-
-
-2. Install dependencies:
 npm install
+npm start
 
-3. Create a .env file inside the server directory and add the following:
+---
+
+- Create a .env file inside the server directory and add the following:
+```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
-4. Start the backend server:
+ 
+---
+### Frontend Setup
+```bash
+cd client
+npm install
 npm start
+
+---
+
 
 
